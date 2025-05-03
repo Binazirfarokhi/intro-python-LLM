@@ -29,3 +29,6 @@ print(len(msg))
 print(msg.count('w'))
 # slicing : getting a part of string and give it to us
 print(msg[5:12])
+# print the mesage backward 
+print(msg[::-1])
+
