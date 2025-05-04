@@ -31,4 +31,22 @@ print(msg.count('w'))
 print(msg[5:12])
 # print the mesage backward 
 print(msg[::-1])
+print(msg.replace('cool',"binazir"))
+# string are mutable means you needanother place to store them and then use them
 
+
+# name = input("what is your name ? ")
+# print("HEllo " + name)
+# convert miles to kilometers
+
+# for using ` back tich in python you need to use f'' and that's it 
+
+name = input('Enter your name: ')
+distance_km = input('Enter distance in km: ')
+distance_mi = float(distance_km)/1.609
+print(f'Hi {name.title()}! {distance_km}km is equivalent to {round(distance_mi,1)} miles.')
+# list like array 
+friends = ['binazir','reza','ali']
+print(friends[0])
+print(len(friends))
+print(friends.count('eric'))

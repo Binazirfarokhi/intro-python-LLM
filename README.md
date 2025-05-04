@@ -8,3 +8,6 @@ input( ) box is promt
 top to botton and left to write 
 variables : save - like a box with a lable on it 
 <!-- str() converts a variable to a string (text) type in Python. -->
+python3 index.py : this is how to run python on terminal 
+python is like java or c, you can not run in the browser, browser can only understand js
+so they write a library called brython,
