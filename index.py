@@ -93,8 +93,9 @@ print(','.join(csv.split(';')).split(':'))
 friends_list = ['Exercise: fill me with names']
 print(friends_list)
 
-# tuples
+
 array=['jj','fgfgf','wwwe']
+# tuples
 array_tuple=('tyty','hyhy','erwr')
 # unorder and there is not duplicate { } it is faster that ( ) and []
 # 
@@ -109,3 +110,20 @@ friends_set = {'John','Michael','Terry','Eric','Graham','Eric'}
 friends = {'John','Michael','Terry','Eric','Graham'}
 my_friends = {'Reg','Loretta','Colin','John','Graham'}
 cars =['900','420','V70','911','996','V90','911','911','S','328','900']
+print( 'Eric' in friends and 'John' in friends)
+print(friends.union(my_friends))
+# or 
+print(friends | my_friends)
+# find a name in both sets
+print(friends.intersection(my_friends))
+print(friends & my_friends)
+# exist only in two sets 
+print(friends.difference(my_friends))
+print(my_friends - friends)
+# show us all of the difference in our sets
+print(my_friends.symmetric_difference(friends))
+print(my_friends ^ friends)
+# create a new cars list without duplicate 
+cars_no_dup = set(cars)
+print(cars_no_dup)
+# functions : 
