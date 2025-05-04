@@ -130,5 +130,6 @@ print(cars_no_dup)
 # always declare a function before use it
 def greeting(name):
      print('hello'  +'' + name + 'you are learning Python')
+     
 
 greeting("Binazir")
