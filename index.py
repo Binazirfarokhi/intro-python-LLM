@@ -127,3 +127,8 @@ print(my_friends ^ friends)
 cars_no_dup = set(cars)
 print(cars_no_dup)
 # functions : 
+# always declare a function before use it
+def greeting(name):
+     print('hello'  +'' + name + 'you are learning Python')
+
+greeting("Binazir")
